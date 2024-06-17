@@ -219,22 +219,72 @@ footer {
   background-color: #73be4b;
   color: white;
 }
-.fz-060{
+.fz-060 {
   font-size: 0.6rem;
 }
-.fz-075{
+.fz-075 {
   font-size: 0.75rem;
 }
-.fz-1{
+.fz-1 {
   font-size: 1rem;
 }
-.custom-separator{
+.custom-separator {
   border-top: 1px solid #888;
   margin: 2rem 0;
 }
-.text-black{
+.text-black {
   color: black;
 }
 .login-maincontent {
-  font-size: 4rem;
+  font-size: 3.5rem;
+}
+.login-content {
+  top: 2rem;
+  left: 0;
+  color: white;
+  text-align: center;
+}
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  position: relative;
+}
+.progress-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  /* background-color: white;  */
+}
+.progress-step .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #189d3e;
+  border: 2px solid #189d3e;
+  background-color: white;
+  font-size: 20px;
+  margin-bottom: 5px;
+ 
+}
+.progress-step.active .icon {
+  background-color: #8ce8ad;
+}
+
+.need-help {
+  margin-top: 20px;
+}
+.step-connector {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  border-top: 0.25rem solid #189d3e;
+  z-index: 1;
+  width: 95%;
 }
