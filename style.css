@@ -6,7 +6,7 @@ body {
   font-family: "inter", sans-serif;
 }
 
-a:hover{
+a:hover {
   color: #73be4b;
 }
 ul li a {
@@ -25,7 +25,7 @@ img .logo {
   color: white;
 }
 
-.flexbox{
+.flexbox {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -54,6 +54,9 @@ img .logo {
 }
 .fw-400 {
   font-weight: 400;
+}
+.fw-600 {
+  font-weight: 600;
 }
 .hero-maincontent {
   font-size: 5rem;
@@ -211,5 +214,27 @@ footer {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
-  
+}
+.btn-login {
+  background-color: #73be4b;
+  color: white;
+}
+.fz-060{
+  font-size: 0.6rem;
+}
+.fz-075{
+  font-size: 0.75rem;
+}
+.fz-1{
+  font-size: 1rem;
+}
+.custom-separator{
+  border-top: 1px solid #888;
+  margin: 2rem 0;
+}
+.text-black{
+  color: black;
+}
+.login-maincontent {
+  font-size: 4rem;
 }
