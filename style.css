@@ -269,7 +269,6 @@ footer {
   background-color: white;
   font-size: 20px;
   margin-bottom: 5px;
- 
 }
 .progress-step.active .icon {
   background-color: #8ce8ad;
@@ -288,6 +287,16 @@ footer {
   z-index: 1;
   width: 95%;
 }
-.btn-link-black{
+.btn-link-black {
   color: black;
+}
+.register-ok {
+  color: #73be4b;
+  font-size: 10rem;
+}
+.register-ok h2{
+  color: #333;
+  font-size: 2rem;
+  font-weight: 200;
+
 }
